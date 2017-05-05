@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/btnNew"
+        android:layout_width="193dp"
+        android:layout_height="195dp"
+        android:layout_gravity="bottom"
+        android:onClick="onClickNext"
+        android:text="New Activity" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="190dp"
+        android:layout_height="193dp"
+        android:layout_gravity="top"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:elevation="0dp"
+        android:onClick="btnExitClick"
+        android:text="Exit" />
+
+</LinearLayout>
